@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    margin-right: 490px;
+}
+
+.sitenav-list{
+    margin-top: 23px;
+    list-style: none;
+    display: flex;
+}
+
+
+.container-contain{
+    margin-top: 37px;
+    display: flex;
+    align-self: center ;
+}
+
+.img-logo{
+    border-radius: 50%;
+}
+
+.sitenav-item:not(:last-child){
+    margin-right: 42px;
+}
+
+    
+    .sitenav-link{
+        text-decoration: none;
+        font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #7C4FE0;
+    }
+
+
+
+.btn{
+    padding: 15px 30px 13px 30px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+color: #FFFFFF;
+    margin-left: 51px;
+    margin-top: 10px;
+    background: #7C4FE0;
+border-radius: 12px;
+text-decoration: none;
+}
+
+.text{
+    color: #575759;
+    margin-left: 3px;
+}
+
+.main{
+    margin-top: 12px;
+    background-image: url('./images/Group\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-text{
+    font-style: normal;
+    width: 789px;
+    font-weight: 700;
+font-size: 55px;
+line-height: 140%;
+/* or 84px */
+
+letter-spacing: 0.04em;
+    color: white;
+    padding-top: 200px;
+}
+
+
+.main-title{
+    padding-top: 22px;
+    width: 437px;
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 130%;
+color: #FFFFFF;
+}
+
+.btn-section{
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 20px 60px 20px 30px ;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+color: #FFFFFF;
+background: linear-gradient(98.22deg, rgba(83, 58, 219, 0.9) 48.36%, rgba(110, 80, 222, 0.9) 64.77%, rgba(127, 94, 224, 0.9) 74.81%, rgba(140, 105, 226, 0.9) 83.09%, rgba(153, 116, 227, 0.9) 90.76%);
+}
+
+.btn-contain{
+    padding-top: 65px;
+    padding-bottom: 200px;
+}
+
+.main-cnt{
+    display: flex;
+}
+
+.sec-img{
+    padding-top: 88px;
+}
+
+.mavzu-text{
+    position: absolute;
+    top: 140%;
+width: 162px;
+left: calc(50% - 162px/2);
+bottom: 84.55%;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+
+color: #7C4FE0;
+
+}
+
+.modul-fr-view{
+    display: flex;
+}
+
+.clock-cnt{
+    margin-left: 357px;
+}
+
+.modul-sn{
+    margin-top: 30px;
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 120%;
+/* identical to box height, or 30px */
+
+
+color: #555559;
+
+}
+
+.modul-fir{
+    margin-top: 218px;
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 120%;
+/* identical to box height, or 30px */
+
+
+color: #555559;
+
+}
+
+.kirish-img, .kirish-cnt-text, .clock-cnt, .clock-cnt-text{
+    margin-top: 15px;
+}
+
+.border{
+    width: 574px;
+    background-color:  #59595966;
+    
+}
+
+.montaj-cnt{
+    display: flex;
+}
+
+.montaj-clock-cnt{
+    margin-left: 196px;
+}
+
+.mavzu-all-cnt{
+    display: flex;
+}
+
+.mavzu-modul-sc{
+    margin-top: 218px;
+    margin-left: 200px;
+}
+
+.montaj-cnt-text, .montaj-clock-cnt, .montaj-img{
+    margin-top: 15px;
+}
+
+.color-cnt{
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 120%;
+/* identical to box height, or 30px */
+
+
+color: #555559;
+
+}
+
+.tajriba-cnt{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 30px */
+    
+    
+    color: #555559;
+}
+
+.premiere-cnt{
+    max-width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.premier-pro{
+    display: flex;
+}
+
+.prme-title{
+    font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* or 36px */
+
+
+color: #0A0A0A;
+
+}
+
+.prime-qu{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 139%;
+/* or 28px */
+
+letter-spacing: 0.005em;
+
+color: #575759;
+}
+
+.btn-prime{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+color: #FFFFFF;
+}
+
+.btn-prime{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+/* or 19px */
+
+
+color: #FFFFFF;
+background: #7C4FE0;
+padding: 20px 90px 20px 40px;
+border-radius: 12px;
+}
+
+.btn-prime-cnt{
+    margin-top: 50px;
+}
+
+.premiere{
+    margin-top: 130px;
+}
+
+.premierpro-text{
+    margin-top: 115px;
+    margin-left: 76px;
+}
+
+.prime-qu{
+    margin-top: 30px;
+}
+
+.restangle{
+    margin-left: 700px;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.restangle-sc{
+    
+    background-image: url('./images/Group\ 103.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mijoz-img{
+    padding-top: 33px;
+    padding-left: 114px;
+    padding-right: 118px;
+}
+
+.mijoz-ismi{
+    padding-top: 14px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+
+color: #7C4FE0;
+
+}
+
+
+.mijoz-haqda{
+    padding-top: 14px;
+    margin-left: 50px;
+    width: 274px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    padding-bottom: 30px;
+    
+}
+
+
+.mijozlar{
+    display: flex;
+    margin-top: 100px;
+}
+
+.mijoz1, .mijoz2, .mijoz3, .mijoz4{
+    border: 1px solid #DADADA;
+border-radius: 15px;
+margin-left: 25px;
+}
+
+
+
+.mijozlar-fikri-text{
+    margin-top: 100px;
+    font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+
+color: #7C4FE0;
+margin-left:550px;
+}
+
+.img-lucide-cnt{
+    display: flex;
+}
+
+.lucide-text{
+    margin-left: 13px;
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 139%;
+/* or 33px */
+
+letter-spacing: 0.005em;
+
+color: rgba(85, 85, 89, 0.89);
+}
+
+.s5{
+    margin-left: 245px;
+    margin-top: 6px;
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 139%;
+/* or 28px */
+
+letter-spacing: 0.005em;
+
+color: #363637;
+
+opacity: 0.8;
+}
+
+.s6{
+    margin-left: 300px;
+}
+
+.mavzular{
+    align-items: center;
+    display: flex;
+}
+
+.mavzular-text-cnt{
+    margin-left: 13px;
+}
+
+.mavzular-text{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 139%;
+/* or 33px */
+
+letter-spacing: 0.005em;
+
+color: rgba(85, 85, 89, 0.89);
+}
+
+.number-cnt{
+    margin-left: 245px;
+}
+
+.number{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 139%;
+/* or 28px */
+
+letter-spacing: 0.005em;
+
+color: #363637;
+
+opacity: 0.8;
+}
+
+.price-title-header{
+    font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+
+
+color: #373737;
+}
+
+.price-text{
+    margin-left: 550px;
+    font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+
+color: #7C4FE0;
+
+}
+
+.price-title{
+    margin-top: 216px;  
+}
+
+.mavzular{
+    margin-top: 37px;
+}
+
+.davomiy, .tili{
+    display: flex;
+}
+
+.number-lenguage{
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 139%;
+/* or 28px */
+
+letter-spacing: 0.005em;
+
+color: #363637;
+
+opacity: 0.8;
+margin-left: 50px;
+}
+
+.davomiy{
+    margin-top: 15px;
+}
+
+.tili{
+    margin-top: 15px;
+}
+
+.price-cnt{
+    display: flex;
+}
+
+.price-container{
+    max-width: 1153px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-img{
+    margin-top: 100px;
+    margin-left: 293px;
+}
+
+
+.price-text{
+    margin-top: 120px;
+}
+
+.price-narxi{
+    font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 120%;
+/* or 50px */
+
+
+color: #7C4FE0;
+    margin-top: 30px;
+}
+
+.buyurtma{
+    padding: 15px 29px;
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+
+color: #FFFFFF;
+
+background: #7C4FE0;
+border-radius: 12px;
+
+}
+
+.buyrtma-bersh{
+    margin-top: 30px;
+}
+
+.royhatdan-otish{
+    background: #FFFFFF;
+border: 1px solid #DADADA;
+border-radius: 20px;
+
+    max-width: 936px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+label{
+    display: block;
+}
+
+
+.royhat-text{
+    font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+/* identical to box height, or 48px */
+
+
+color: #7C4FE0;
+    padding-top: 120px;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+
+.ismi-label{
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 120%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.05em;
+
+color: #555559;
+padding-top: 50px;
+padding-left: 120px;
+}
+
+.ismi-input, .telfon-raqam{
+
+    width: 595px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 336px;
+    border: 1px solid #DADADA;
+border-radius: 12px;
+}
+
+
+
+
+input{
+    margin-top: 7px;
+    margin-left: 120px;
+    display: block;
+}
+
+.telfon-class{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 120%;
+/* identical to box height, or 30px */
+
+letter-spacing: 0.05em;
+
+color: #555559;
+
+}
+
+.btn-input{
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+
+
+color: #FFFFFF;
+background: #7C4FE0;
+border: 1px solid #FFFFFF;
+border-radius: 12px;
+padding: 20px 216px;
+margin-left: 120px;
+margin-top: 50px;
+margin-bottom: 120px;
+}
+
+
+.malumot-div-cnt{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.tefon-raqami, .telfon-raqami-teleg{
+    margin-left: 6px;
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 120%;
+/* identical to box height, or 22px */
+
+
+color: rgba(124, 79, 224, 0.66);
+
+}
+
+.telegram{
+    margin-left: 33px;
+}
+
+.savdo{
+    font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 120%;
+/* or 31px */
+
+letter-spacing: 0.02em;
+
+color: #555559;
+margin-left: 600px;
+margin-top: 50px;
+}
+
+
+.malumot-div-cnt{
+    margin-top: 35px;
+    margin-bottom: 133px;
+}
